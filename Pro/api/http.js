@@ -1,4 +1,4 @@
-let baseUrl = "https://"
+let baseUrl = "https://m1.apifoxmock.com/m1/4728220-0-default/api/user/getBanner"
 
 export default function http(url, data ={}, method="GET"){
 	return new Promise((resolve,reject)=>{
@@ -20,9 +20,14 @@ export default function http(url, data ={}, method="GET"){
 							icon:"none"
 						})
 						reject(res.data.msg)
-						// 做到这里了
 					}
 				}
+			},
+			fail:() =>{
+				uni.showToast({
+					title:"服务器请求失败",
+					icon:"none"
+				})
 			}
 		})
 	})
