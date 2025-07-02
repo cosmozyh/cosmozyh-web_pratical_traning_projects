@@ -1,1 +1,1 @@
-<view class="content"><image class="logo" src="{{a}}"></image><view class="text-area"><text class="title">{{b}}</text></view></view>
+<view class="content data-v-1cf27b2a"><view class="search data-v-1cf27b2a"><up-search wx:if="{{b}}" class="data-v-1cf27b2a" u-i="1cf27b2a-0" bind:__l="__l" bindupdateModelValue="{{a}}" u-p="{{b}}"></up-search></view><up-swiper wx:if="{{c}}" class="data-v-1cf27b2a" u-i="1cf27b2a-1" bind:__l="__l" u-p="{{c}}"/><up-notice-bar wx:if="{{d}}" class="data-v-1cf27b2a" u-i="1cf27b2a-2" bind:__l="__l" u-p="{{d}}"></up-notice-bar></view>
