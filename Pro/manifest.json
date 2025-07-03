@@ -1,6 +1,6 @@
 {
-    "name" : "Pro",
-    "appid" : "wxe195d283997cac3a",
+    "name" : "uniapp",
+    "appid" : "__UNI__7B4C8D1",
     "description" : "",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -50,7 +50,7 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "",
+        "appid" : "wxe195d283997cac3a",
         "setting" : {
             "urlCheck" : false
         },

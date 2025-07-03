@@ -1,15 +1,15 @@
-let baseUrl = "https://m1.apifoxmock.com/m1/4728220-0-default/api/user/getBanner"
+let baseUrl = "https://m1.apifoxmock.com/m1/4728220-0-default/api"
 
-export default function http(url, data ={}, method="GET"){
-	return new Promise((resolve,reject)=>{
+export default function http(url, data={}, method="GET"){
+	return new Promise((resolve, reject)=>{
 		uni.request({
-			url:url + url,
+			url:baseUrl + url,
 			data,
 			method,
 			header:{
 				"token":uni.getStorageSync("token") || ""
 			},
-			success: res =>{
+			success:res =>{
 				if(res.statusCode == 200){
 					if(res.data.code == 1){
 						resolve(res.data.data)
@@ -23,7 +23,7 @@ export default function http(url, data ={}, method="GET"){
 					}
 				}
 			},
-			fail:() =>{
+			fail: () => {
 				uni.showToast({
 					title:"服务器请求失败",
 					icon:"none"

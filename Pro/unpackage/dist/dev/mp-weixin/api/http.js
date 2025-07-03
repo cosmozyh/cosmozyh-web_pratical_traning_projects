@@ -1,9 +1,10 @@
 "use strict";
 const common_vendor = require("../common/vendor.js");
+let baseUrl = "https://m1.apifoxmock.com/m1/4728220-0-default/api";
 function http(url, data = {}, method = "GET") {
   return new Promise((resolve, reject) => {
     common_vendor.index.request({
-      url: url + url,
+      url: baseUrl + url,
       data,
       method,
       header: {

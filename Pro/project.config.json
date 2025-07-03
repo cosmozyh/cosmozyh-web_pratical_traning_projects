@@ -21,5 +21,6 @@
     "include": []
   },
   "appid": "wxe195d283997cac3a",
+  "miniprogramRoot": "unpackage/dist/dev/mp-weixin/",
   "editorSetting": {}
 }

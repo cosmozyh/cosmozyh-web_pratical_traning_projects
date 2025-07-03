@@ -5,7 +5,7 @@
 			"custom": {
 				"^u--(.*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue",
 				"^up-(.*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue",
-		    "^u-([^-].*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue"
+			"^u-([^-].*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue"
 			}
 		},
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
@@ -37,25 +37,24 @@
 		"backgroundColor": "#ffffff",
 		"list": [
 			{
-				"pagePath":"pages/index/index",
-				"iconPath":"/static/tabbar/index1.png",
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/tabbar/index1.png",
 				"selectedIconPath": "/static/tabbar/index.png",
 				"text": "首页"
 			},
 			{
-				"pagePath":"pages/like/like",
-				"iconPath":"/static/tabbar/like1.png",
+				"pagePath": "pages/like/like",
+				"iconPath": "/static/tabbar/like1.png",
 				"selectedIconPath": "/static/tabbar/like.png",
 				"text": "喜欢"
 			},
 			{
-				"pagePath":"pages/my/my",
-				"iconPath":"/static/tabbar/my1.png",
+				"pagePath": "pages/my/my",
+				"iconPath": "/static/tabbar/my1.png",
 				"selectedIconPath": "/static/tabbar/my.png",
 				"text": "我的"
 			}
-		],
-		
+		]
 	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
